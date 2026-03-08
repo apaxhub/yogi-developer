@@ -2,14 +2,16 @@
 
 import React from 'react';
 import { motion, Variants } from 'framer-motion';
-import { Award, ShieldCheck, FileBadge2, Building } from 'lucide-react';
+import { Award, ShieldCheck, FileBadge2, Building, PackageCheck, Users } from 'lucide-react';
 import { certificationsData } from '@/data/siteData';
 
 const iconMap: Record<string, any> = {
     FileBadge2,
     Award,
     ShieldCheck,
-    Building
+    Building,
+    PackageCheck,
+    Users
 };
 
 const certifications = certificationsData.map((item, idx) => ({
