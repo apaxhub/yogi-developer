@@ -153,18 +153,18 @@ export default function LocationAdvantage() {
                             className="w-[120%] h-[120%] lg:w-full lg:h-full relative z-10"
                             style={{ backgroundColor: "transparent" }}
                         >
-                            <Geographies geography={geoUrl}>
+                                                        <Geographies geography={geoUrl}>
                                 {({ geographies }) =>
                                     geographies.map((geo) => (
                                         <Geography
                                             key={geo.rsmKey}
                                             geography={geo}
-                                            fill="#141414"
+                                            fill="#3b3b3b"
                                             stroke="#222222"
                                             strokeWidth={0.5}
                                             style={{
                                                 default: { outline: "none" },
-                                                hover: { outline: "none", fill: "#1F1F1F" },
+                                                hover: { outline: "none", fill: "#4f4c4c" },
                                                 pressed: { outline: "none" },
                                             }}
                                         />
